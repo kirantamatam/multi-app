@@ -23,6 +23,7 @@ pipeline{
             }
             steps{
                 echo "artifacts uploading tyo nexus..."
+                echo "testing for develop..."
             }
         }
         stage('deploy to qa'){
