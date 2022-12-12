@@ -22,7 +22,7 @@ pipeline{
                 branch "develop"
             }
             steps{
-                echo "artifacts uploading tyo nexus..."
+                echo "artifacts uploading to nexus..."
                 echo "testing for develop..."
             }
         }
